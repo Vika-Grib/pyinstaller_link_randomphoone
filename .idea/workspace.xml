@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6fa38d5-edb8-40e3-a31f-e9fb22430a53" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/phone_generator/Analysis-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/phone_generator/EXE-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/phone_generator/PKG-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/phone_generator/PYZ-00.pyz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/phone_generator/PYZ-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/phone_generator/Tree-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/phone_generator/Tree-01.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/phone_generator/Tree-02.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/phone_generator/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/phone_generator/phone_generator.pkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/phone_generator/warn-phone_generator.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/phone_generator/xref-phone_generator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phone_generator.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/phone_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_generator.spec" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +30,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Python.phone_generator (1)">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/Lenovo/PycharmProjects/app_windows"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.phone_generator">
     <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="app_windows" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,11 +122,26 @@
       <option name="project" value="LOCAL" />
       <updated>1695895904837</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="все файлы добавлены">
+      <created>1695987359620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695987359620</updated>
+    </task>
+    <task id="LOCAL-00003" summary="все файлы добавлены.">
+      <created>1695987388429</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695987388429</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="все файлы добавлены" />
-    <option name="LAST_COMMIT_MESSAGE" value="все файлы добавлены" />
+    <MESSAGE value="все файлы добавлены." />
+    <option name="LAST_COMMIT_MESSAGE" value="все файлы добавлены." />
   </component>
 </project>

@@ -1,12 +1,14 @@
 import tkinter as tk
 import random
+import validators
 
 entry_count = 0
 last_entered_link = ""
 
 def generate_phone_number():
     link = link_entry.get()
-    if link:
+    check = check_link(link)
+    if check:
         prefix = "+375 ("
         operator = random.choice(["29", "44", "33", "25"])
         prefix += operator + ") "
@@ -18,10 +20,16 @@ def generate_phone_number():
 
         phone_number.set(prefix + number)
 
-        # Update statistics internally
+        # информация по подсчету количества вводов ссылочки
         update_statistics(link)
     else:
         phone_number.set("Please enter a link first")
+
+def check_link(link):
+    if validators.url(link) or link.startswith("www") or "@" in link:
+        return True
+    else:
+        return False
 
 def update_statistics(link):
     global entry_count, last_entered_link
