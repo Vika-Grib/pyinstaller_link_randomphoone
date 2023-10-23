@@ -7,6 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
+# http://over.org.tilda.ws/testuser
 
 entry_count = 0
 last_entered_link = ""
