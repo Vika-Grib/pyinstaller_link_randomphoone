@@ -12,7 +12,7 @@ pip install selenium validators googletrans python-tk
 
 
 2. Запустите программу, выполнив в cmd:
-python main.py
+pyinstaller main.py
 cd c:/...(папка, где находится файл)
 
 pyinstaller --onefile --windowed --icon=your_icon.ico your_script.py
